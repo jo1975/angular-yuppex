@@ -1,11 +1,7 @@
-import { Component } from '@angular/core';
- 
+import { Component } from "@angular/core";
+
 @Component({
-    selector: 'mon-premier-component',
-    template: `
-        <h2>Mon premier Component</h2>
-        <img src="http://gabarit.developpez.be/images/logo.png" />
-    `
+  selector: "mon-premier-component",
+  templateUrl: "mon-premier-component.html"
 })
-export class MonPremierComponent  {
-}
+export class MonPremierComponent {}
